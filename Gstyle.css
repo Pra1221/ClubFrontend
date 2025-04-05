@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-body{
+    background-color: rgb(245, 208, 160);
+}
+/* body{
+    background-color: rgb(245, 208, 160);
+} */
+
+/* for Home-page */
+.club-name{
+    font-size:25px;
+    color:antiquewhite;
+}
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: black;
+    height: 50px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    gap: 0.8em;
+    font-weight: 200;
+}
+#navLinks{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.mid-content{
+    background-color:rgb(251, 230, 203);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 1250px;
+    margin-top: 150px;
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-softrec{
+    font-size: 20px;
+}
+
+
+/* for login-page */
+.login-body{
+    background-color: rgb(245, 208, 160);
+}
+.container{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(251, 230, 203);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 400px;
+    
+}
+.inner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 500px;
+    height: 60px;
+    background-color: rgb(245, 208, 160);
+}
+label{
+    background-color: rgb(245, 208, 160);
+    font-size: 25px;
+    margin-left: 10px;
+}
+input{
+    width:300px;
+    height:30px;
+    margin-right: 10px;
+}
+button{
+    margin:25px;
+    margin-left: 50px;
+    font-size: 20px;
+    background-color:rgb(245, 208, 160);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+    
+}
+.upper{
+    height: 50px;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-img{
+    background-color:rgb(251, 230, 203); ;
+}
+
+
+/* About-us-page */
+.about-us{
+    background-color:  rgb(245, 208, 160);
+}
+.A-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(251, 230, 203);
+}
+.main-box{
+    padding: 10px;
+}
+.A-para{
+    font-size: 20px;
+}
+
+/* Members-page */
+
+.M-body{
+    background-color:  rgb(245, 208, 160);
+}
+.first{
+    background-color: rgb(251, 230, 203);
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.photo{
+    background-color:  rgb(245, 208, 160);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+img{
+    margin: 20px;
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.M-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Alumini-page */
+.Al-body{
+    background-color:  rgb(245, 208, 160); 
+}
+
+/* Events-page */
+.E-body{
+    background-color:  rgb(245, 208, 160); 
+}
+.E-container{
+    background-color:rgb(251, 230, 203) ;
+    margin: 50px;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+.E-inner{
+    margin:30px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.E-para{
+    margin: 20px;
+    font-size: 25px;
+}
