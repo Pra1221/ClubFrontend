@@ -18,9 +18,10 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     align-items: center;
     gap: 1rem;
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(3,32,83,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(3,32,83,1) 100%, rgba(0,212,255,1) 100%);
     height: 50px;
     width: 100vw;
+    margin-right: 0;
 }
 .nav-links{
     display: flex;
@@ -41,12 +42,13 @@ a{
     border-radius: 10px;
     /* width: 85vw; */
     margin-top: 150px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .about-softrec{
     font-size: 20px;
 }
@@ -60,8 +62,8 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 .container{
     /* width: 600px; */
     margin-top: 150px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 25vw;
+    margin-right: 25vw;
     height: 450px;
     background-color: rgb(251, 230, 203);
     border: 1px solid black;
@@ -88,7 +90,7 @@ label{
     margin-left: 10px;
 }
 input{
-    width:300px;
+    width:30vw;
     height:30px;
     margin-right: 10px;
 }
