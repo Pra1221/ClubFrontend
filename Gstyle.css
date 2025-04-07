@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
 }
+/* for Home-page */
 .home-body{
     background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
-
-/* for Home-page */
 .club-name{
     font-size:25px;
     color:antiquewhite;
@@ -22,6 +21,13 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     height: 50px;
     width: 100vw;
     margin-right: 0;
+}
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: antiquewhite;
+    cursor: pointer;
+    padding-right: 20px;
 }
 .nav-links{
     display: flex;
@@ -48,7 +54,48 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+@media screen and (max-width: 768px) {
+    .mid-content{
+        flex-direction: column;
+        height: auto;
+    }
+    .about-softrec{
+        margin-left: 10vw;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        z-index: 1;
+    }
 
+    .nav-links.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-bar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    img{
+        width: 90vw;       
+        height: auto;    
+        margin: 10px auto; 
+        display: block;
+    }
+}
 .about-softrec{
     font-size: 20px;
 }
@@ -90,7 +137,7 @@ label{
     margin-left: 10px;
 }
 input{
-    width:30vw;
+    width:25rem;
     height:30px;
     margin-right: 10px;
 }
@@ -136,6 +183,7 @@ button{
 }
 .A-para{
     font-size: 20px;
+    display: flex;
 }
 
 /* Members-page */
@@ -167,6 +215,10 @@ img{
     height: 350px;
     border: 2px solid black;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(1.20); 
 }
 .M-heading{
     display: flex;
