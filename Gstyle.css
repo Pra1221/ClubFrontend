@@ -43,7 +43,7 @@ a{
     color:antiquewhite;
 }
 .mid-content{
-    background-color:rgb(251, 230, 203);
+    background-color: rgb(251, 230, 203);
     border: 1px solid black;
     border-radius: 10px;
     /* width: 85vw; */
@@ -202,7 +202,8 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     border-radius: 10px;
 }
 .photo{
-    background-color:  rgb(245, 208, 160);
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 30px;
@@ -248,8 +249,16 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     padding: 20px;
     border: 1px solid black;
     border-radius: 10px;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
 }
 .E-para{
     margin: 20px;
     font-size: 25px;
+}
+
+
+.main-img{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 20%, rgba(103,140,182,1) 65%);
 }
